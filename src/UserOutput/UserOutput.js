@@ -1,13 +1,8 @@
 import React from "react";
+import "./UserOutput.css";
 const userOutput = props => {
-  const style = {
-    border: "1px solid #eee",
-    boxShadow: "0 2px 3px #ccc",
-    width: "40%",
-    margin: "20px auto"
-  };
   return (
-    <div style={style}>
+    <div className="UserOutput">
       <p>Username : {props.username} </p>
       <p>Password: {props.password} </p>
     </div>
